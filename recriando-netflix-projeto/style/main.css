@@ -1,0 +1,22 @@
+/*criando variavel em css*/
+:root
+{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+/*zerando os espaçamentos do index.html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*garantindo o limite dos elementos dentro da div. Elementos serão comprimido dentro da caixa, para não romper o limite da div.*/
+}
+
+body
+{
+    background: var(--preta); /*utilizando a variavel criada --preta*/
+}
+
+header .container
+{
+    border: 2px solid black;
+}
