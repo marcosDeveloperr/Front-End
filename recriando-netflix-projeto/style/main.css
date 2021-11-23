@@ -57,6 +57,13 @@ header nav a:hover /*ao direcionar o curso do mouse em cima dos menus*/
     flex-direction: column; /*tirando o eixo linha e colocando eixo coluna*/
     justify-content: center; /*no centro o conteudo do container*/
     align-items: flex-start;/*elementos começando na esquerda*/
+}
+.filme-principal .descricao
+{
+    margin-bottom: 40px;
+}
 
-
+.titulo
+{
+    font-size: 40px;
 }
