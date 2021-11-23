@@ -15,6 +15,7 @@ body
 {
     background: var(--preta); /*utilizando a variavel criada --preta*/
     font-family: 'Times New Roman', Times, serif;
+    color:white;
 }
 
 header .container
@@ -42,4 +43,15 @@ header nav a{
 header nav a:hover /*ao direcionar o curso do mouse em cima dos menus*/
 {
     color: #fff;/*terá essa cor*/
+}
+
+/* main */
+.filme-principal
+{
+    font-size: 16px; /*tamanho da fonte*/
+    background: url(../imagem/capaARodaDoTempo.jpg);/*imagem como fundo*/
+    height: 400px;/*altura - até ainda fica ruim a imagem*/
+    background-size: cover;/*excelente - especificando tamanho da imagem pegue a área de cobertura da div*/
+
+
 }
