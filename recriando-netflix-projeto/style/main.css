@@ -20,6 +20,10 @@ body
 header .container
 {
     border: 2px solid black;
+    display: flex; /*carregando e já fica alinhado ao eixo  linha*/
+    align-items: center; /*estão ao centro vertical*/
+    justify-content: space-between; /*estão na horizontal. Criando o espaço entre a tag h2 e nav*/
+    margin-left: 5px;/*espaçamento a esquerda*/
 }
 
 header .logo
@@ -27,4 +31,15 @@ header .logo
     color: var(--vermelho); /*a cor vermelha da fonte através da variavel --vermelho*/
     font-family: 'Arial Black', 'Times New Roman', Times, serif;
     font-size: 50px; /*tamanho da fonte*/
+}
+
+header nav a{
+    text-decoration: none;/*tirando o sublinhado*/
+    color: #AAA; /*cor da fonte - menus */
+    margin-right: 10px; /*espacamento em cada item a direita*/
+}
+
+header nav a:hover /*ao direcionar o curso do mouse em cima dos menus*/
+{
+    color: #fff;/*terá essa cor*/
 }
