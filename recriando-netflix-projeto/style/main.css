@@ -53,7 +53,10 @@ header nav a:hover /*ao direcionar o curso do mouse em cima dos menus*/
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../imagem/capaARodaDoTempo.jpg);/*imagem como fundo*/
     height: 400px;/*altura - até ainda fica ruim a imagem*/
     background-size: cover;/*excelente - especificando tamanho da imagem pegue a área de cobertura da div*/
-    display: flex;
+    display: flex; /*eixo linha, porém na vertical*/
+    flex-direction: column; /*tirando o eixo linha e colocando eixo coluna*/
+    justify-content: center; /*no centro o conteudo do container*/
+    align-items: flex-start;/*elementos começando na esquerda*/
 
 
 }
