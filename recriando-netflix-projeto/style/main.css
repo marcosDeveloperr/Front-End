@@ -79,5 +79,11 @@ header nav a:hover /*ao direcionar o curso do mouse em cima dos menus*/
     margin-right: 15px;
     font-size: 12px;
     cursor: pointer; /*mudando o curso quando estiver em cima do botao*/
+    transition: .3s ease all; /*efeito mais suave, nao preenchendo a cor ao colocar o mouse em cima do botão*/
 
+}
+.botao:hover
+{
+    background: white;
+    color: black;
 }
