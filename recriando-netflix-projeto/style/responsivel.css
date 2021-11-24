@@ -13,3 +13,11 @@
     }
 }
 
+@media screen and(min-width)
+ {
+     .descricao
+     {
+         width: 50%;
+     }
+    
+}
