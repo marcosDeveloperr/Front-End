@@ -1,0 +1,9 @@
+live server
+dracula
+auto rename tag
+site tmdb, descrição, imagens, videos utilizados em séries...
+class heapper
+owlcarousel2
+    descompacta, vai ate assets e entra em vendors, recortando jquery.min.js 
+
+    Pega owl.carousel.min.js na pasta doc,assets,owlcarousel
