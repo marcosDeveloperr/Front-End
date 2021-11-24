@@ -51,7 +51,7 @@ header nav a:hover /*ao direcionar o curso do mouse em cima dos menus*/
     font-size: 16px; /*tamanho da fonte*/
     /*escurecendo pouco a imagem - gradiente tem mais duas cores.*/
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../imagem/capaARodaDoTempo.jpg);/*imagem como fundo*/
-    height: 400px;/*altura - até ainda fica ruim a imagem*/
+    height: 500px;/*altura - até ainda fica ruim a imagem*/
     background-size: cover;/*excelente - especificando tamanho da imagem pegue a área de cobertura da div*/
     display: flex; /*eixo linha, porém na vertical*/
     flex-direction: column; /*tirando o eixo linha e colocando eixo coluna*/
@@ -86,4 +86,24 @@ header nav a:hover /*ao direcionar o curso do mouse em cima dos menus*/
 {
     background: white;
     color: black;
+}
+.botao i{
+    margin-right: 5px;
+}
+
+.container
+{
+    margin-left: 20px;
+}
+.filme-principal .container
+{
+    width: 70%;
+}
+
+/*carrosel*/
+.box-miniSerie
+{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
